@@ -1,13 +1,32 @@
-AES şifrələmə
+## Project Screenshots
 
-Ən etibarlı şifrələmə növlərindən biri olan Advanced Encryption Standard (AES), hökumətlər və təhlükəsizlik təşkilatları, eləcə də təsnifləşdirilmiş rabitə üçün gündəlik müəssisələr tərəfindən istifadə olunur. AES “simmetrik” açar şifrələmədən istifadə edir. Verilənlərin qəbulu sonunda kimsə onu açmaq üçün bir açara ehtiyac duyacaqdır.
-AES digər şifrələmə növlərindən fərqlənir ki, məlumatların fərdi bit kimi deyil, tək bir blokda şifrələnir. Blok ölçüləri AES şifrəli məlumatların hər növünün adını müəyyənləşdirir:
+# _Şifrələnəcək mətn daxil edilir_
+![image](https://user-images.githubusercontent.com/55343699/158816102-69807a12-74e5-4e7b-ae04-fda05cacd54b.png)
 
-• AES-128, 128 bit ölçülü blokları şifrələyir
-• AES-192, 192 bit ölçülü blokları şifrələyir
-• AES-256, 256 bit ölçülü blokları şifrələyir
+# _Şifrələ klik ediləndə şifrələnmiş mətn ekranda göstərilir_
+![image](https://user-images.githubusercontent.com/55343699/158816200-22060cfa-09bc-4105-a638-715dba68e8a8.png)
 
-Fərqli blok ölçülərinə sahib olmaqdan əlavə, hər şifrələmə metodu fərqli sayda dövrə malikdir. Bu dövrlər, düz mətnli bir parçanın şifrəli məlumatlara və ya şifrələnmiş mətnə dəyişdirilməsi prosesləridir. Məsələn AES-128, 10 dövrdən, AES-256 isə 14 dövrdən istifadə edir.
+# _Şifrələnmiş mətn daxil edilir_
+![image](https://user-images.githubusercontent.com/55343699/158816401-59072c73-00c9-4aea-9e41-6c77dc3f46b3.png)
 
-AES şifrələməsini nə vaxt istifadə etməlisiniz?
-Bu gün bazarda mövcud olan məlumat vasitələrinin əksəriyyəti AES şifrələməsindən istifadə edir. Proqramları ilə başqa metodlardan istifadə etməyinizə imkan verənlər də AES standartını tövsiyə edirlər. Çox tətbiqetmədə işləyir və hələ də qiymət üçün ən çox qəbul edilən və etibarlı şifrələmə üsuludur. Əslində, bəlkə də bilmədən istifadə edirsiniz.
+# _Deşifrələ klik ediləndə deşifrələnmiş mətn ekranda göstərilir_
+![image](https://user-images.githubusercontent.com/55343699/158816446-6acc018b-1282-4fad-96b6-a40c3dd04723.png)
+
+
+
+
+# Kodun yazılışı 
+
+# _İlk öncə encrypt və decrypt funsialarını daxil edirik_
+![image](https://user-images.githubusercontent.com/55343699/158818080-6f3f2f74-4b3f-4ae7-bae7-c534ccb8719c.png)
+
+# _Formdan gələn requesti yoxlayırıq_
+![image](https://user-images.githubusercontent.com/55343699/158818359-1725d818-fca2-4480-9d65-2c153c94c1fd.png)
+
+# _Form hazırlanır_
+![image](https://user-images.githubusercontent.com/55343699/158818596-b597055e-4893-4b8f-9d9e-fcc9cdb412d4.png)
+
+
+
+
+
